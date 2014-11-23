@@ -1,0 +1,13 @@
+/*
+Theme Name: Total Child
+Author: Stefan Iancu
+Template: Total
+Version: 1.0
+*/
+
+@import url("../Total/style.css");
+
+#copyright{
+	text-align: center;
+
+}
