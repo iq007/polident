@@ -24,6 +24,8 @@ define('DB_USER', 'root');
 /** MySQL database password */
 define('DB_PASSWORD', '');
 
+/*Database=polident;Data Source=eu-cdbr-azure-west-b.cloudapp.net;User Id=b48e122c39267d;Password=be30ee33*/
+
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
 

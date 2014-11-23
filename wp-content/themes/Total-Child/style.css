@@ -11,3 +11,34 @@ Version: 1.0
 	text-align: center;
 
 }
+
+#site-logo{
+    position: absolute;
+    top: 20px;
+    max-width: 500px;
+    left: -10px;
+    z-index: 1000;
+}
+
+.slider-box{
+    background-color: #ba2a2a;
+    font-size: large;
+    color: orangered;
+}
+
+.slilder-box .fa-stack{
+    color: blue;
+}
+
+.slider-message{
+    color: white;
+    font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.slider-message .slider-message-title{
+    font-size: 3em;
+}
+
+.slider-message .slider-message-caption{
+    font-size: 2em;
+}
