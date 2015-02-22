@@ -12,12 +12,29 @@ Version: 1.0
 
 }
 
+/*style date field*/
+.wpcf7-form-control-wrap .wpcf7-date{
+    background: none repeat scroll 0 0 #f7f7f7;
+    border: 1px solid #e4e4e4;
+    color: #777;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 1em;
+    max-width: 100%;
+    padding: 10px 12px;
+    transition: border 0.15s linear 0s;
+    z-index: 1000;
+    position: relative;
+}
+
+
+
 #site-logo{
     position: absolute;
     top: 20px;
     max-width: 500px;
     left: -10px;
-    z-index: 1000;
+    z-index: 999;
 }
 
 .slider-box{
@@ -26,7 +43,7 @@ Version: 1.0
     color: orangered;
 }
 
-.slilder-box .fa-stack{
+.slider-box .fa-stack{
     color: blue;
 }
 
