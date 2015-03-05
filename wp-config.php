@@ -21,8 +21,9 @@ define('DB_NAME', 'polident');
 /** MySQL database username */
 
 $mysqlUserName = getenv('MysqlUserName') ? getenv('MysqlUserName') : 'root';
-$mysqlPassword = getenv('MysqlPassowrd') ? getenv('MysqlPassword') : '';
-$hostName = getenv('HostName') ? getenv('HostName') : 'locahost';
+$mysqlPassword = getenv('MysqlPassword') ? getenv('MysqlPassword') : '';
+$hostName = getenv('HostName') ? getenv('HostName') : 'localhost';
+
 
 define('DB_USER', $mysqlUserName);
 
