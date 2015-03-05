@@ -19,15 +19,18 @@
 define('DB_NAME', 'polident');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+
+$mysqlUserName = getenv('MysqlUserName') ? getenv('MysqlUserName') : 'root';
+$mysqlPassword = getenv('MysqlPassowrd') ? getenv('MysqlPassword') : '';
+$hostName = getenv('HostName') ? getenv('HostName') : 'locahost';
+
+define('DB_USER', $mysqlUserName);
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
-
-/*Database=polident;Data Source=eu-cdbr-azure-west-b.cloudapp.net;User Id=b48e122c39267d;Password=be30ee33*/
+define('DB_PASSWORD', $mysqlPassword);
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', $hostName);
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
